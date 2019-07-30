@@ -1,11 +1,11 @@
 package main.java.cinema;
 
 public class Movie {
-    private final String name;
-    private  final String genre;
-    private final int price;
+    private String name;
+    private String genre;
+    private int price;
 
-    public Movie(String name, String genre, int price) {
+    Movie(String name, String genre, int price) {
         this.name = name;
         this.genre = genre;
         this.price = price;
@@ -15,11 +15,11 @@ public class Movie {
         return name;
     }
 
-    public String getGenre() {
+    String getGenre() {
         return genre;
     }
 
-    public int getPrice() {
+    int getPrice() {
         return price;
     }
 }

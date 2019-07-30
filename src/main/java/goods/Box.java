@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Box {
-    private  List<ArrayList<Thing>> boxes = new ArrayList<>();
+    private List<ArrayList<Thing>> boxes = new ArrayList<>();
 
     public Box() {
 
