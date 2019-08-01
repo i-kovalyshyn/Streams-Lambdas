@@ -13,9 +13,8 @@ public class Main {
 
         System.out.println("===============*Users who logged week ago*==============");
         UsersInfo.userLoginWeekAgo()
-                .forEach((team, mail) -> System.out
-                        .println("from team " + team + " was the user with @-mail-" + mail));
-
+                .forEach((team, mail) ->
+                        System.out.println("from team " + team + " was the user with @-mail-" + mail));
 
         System.out.println("===============*Average price of genre*=================");
         MovieCollection.averagePrice().forEach((g, p) ->
