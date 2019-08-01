@@ -3,25 +3,25 @@ package main.java.users;
 import java.time.LocalDate;
 
 class User {
-    private final String email;
-    private final LocalDate loginTime;
-    private final String team;
+    private String email;
+    private LocalDate loginTime;
+    private String team;
 
-    public User(String email, LocalDate loginTime, String team) {
+    User(String email, LocalDate loginTime, String team) {
         this.email = email;
         this.loginTime = loginTime;
         this.team = team;
     }
 
-    public String getEmail() {
+    String getEmail() {
         return email;
     }
 
-    public LocalDate getLoginTime() {
+    LocalDate getLoginTime() {
         return loginTime;
     }
 
-    public String getTeam() {
+    String getTeam() {
         return team;
     }
 }
