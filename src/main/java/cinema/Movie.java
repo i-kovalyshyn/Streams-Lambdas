@@ -1,6 +1,6 @@
 package main.java.cinema;
 
-public class Movie {
+class Movie {
     private String name;
     private String genre;
     private int price;
@@ -11,9 +11,6 @@ public class Movie {
         this.price = price;
     }
 
-    public String getName() {
-        return name;
-    }
 
     String getGenre() {
         return genre;
